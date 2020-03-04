@@ -1,8 +1,7 @@
 # Encryption
 Super simple encryption decryption system. 
 Example use:
-<?
-```
+'''
 <?php
 function pre($v,$x=0){echo'<pre>';print_r($v);echo'</pre>';if($x)exit;}
 function convert($str, $add=3){
@@ -27,6 +26,4 @@ pre($hash3);
 pre(convert($hash1,-5));
 pre(convert($hash2,-5));
 pre(convert($hash3,-5));
-
-
-```
+'''
